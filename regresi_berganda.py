@@ -267,7 +267,7 @@ fig.text(0.50, 0.025,
          ha='center', fontsize=9, color=MILK_BROWN,
          fontstyle='italic', fontfamily='serif')
 
-plt.savefig('/mnt/user-data/outputs/regresi_berganda_vintage.png',
+plt.savefig('regresi_berganda_vintage.png',
             dpi=160, bbox_inches='tight',
             facecolor=WARM_WHITE)
 print("Gambar disimpan.")
