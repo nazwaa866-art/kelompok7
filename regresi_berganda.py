@@ -189,7 +189,7 @@ st.markdown(f"""
 <div style="text-align:center; padding: 32px 0 8px 0;">
     <div style="font-size:1.9rem; font-weight:bold; color:{DARK_BROWN};
                 font-family:Georgia,serif; margin-bottom:6px;">
-        Regresi Berganda — Prediksi Harga Properti India
+        Regresi Berganda — Prediksi Harga Properti
     </div>
     <div style="color:{MED_BROWN}; font-style:italic; font-size:0.95rem;
                 font-family:Georgia,serif;">
