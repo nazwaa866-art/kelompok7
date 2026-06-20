@@ -286,7 +286,7 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-coef_df = pd.DataFrame({{
+coef_df = pd.DataFrame({
     "Variabel"    : ["Intercept (a)","X1 - Luas (sqft)","X2 - Jumlah Kamar","X3 - Tahun Bangun","X4 - Furnishing"],
     "Koefisien"   : [f"{intercept:,.2f}"] + [f"{c:,.2f}" for c in coef],
     "Interpretasi": [
@@ -296,7 +296,7 @@ coef_df = pd.DataFrame({{
         f"Setiap +1 tahun, harga naik {coef[2]:,.0f} USD",
         f"Setiap +1 level furnishing, harga berubah {coef[3]:,.0f} USD",
     ]
-}})
+})
 st.dataframe(coef_df, use_container_width=True, hide_index=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
@@ -316,9 +316,9 @@ with col_h1:
     fig_heat, ax_heat = plt.subplots(figsize=(7, 5), facecolor=WARM_WHITE)
     sns.heatmap(corr_mat, ax=ax_heat, cmap=heatmap_cmap,
                 annot=True, fmt=".2f",
-                annot_kws={{"size":10, "color":DARK_BROWN, "fontfamily":"serif"}},
+                annot_kws={"size":10, "color":DARK_BROWN, "fontfamily":"serif"},
                 linewidths=0.8, linecolor=CREAM,
-                cbar_kws={{"shrink":0.8}}, square=True)
+                cbar_kws={"shrink":0.8}, square=True)
     ax_heat.set_title("Korelasi Antar Variabel", fontsize=12,
                       fontweight="bold", color=DARK_BROWN, pad=12, fontfamily="serif")
     ax_heat.tick_params(colors=DARK_BROWN, labelsize=9, rotation=30)
