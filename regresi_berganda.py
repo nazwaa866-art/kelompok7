@@ -31,7 +31,7 @@ heatmap_cmap = sns.color_palette(
 # ============================================================
 #  1. LOAD & PREPROCESSING DATA
 # ============================================================
-df = pd.read_csv('/mnt/user-data/uploads/dataset_2.csv')
+df = pd.read_csv('dataset_2.csv')
 df.dropna(subset=['Area_SqFt', 'Rooms', 'Furnishing'], inplace=True)
 df.reset_index(drop=True, inplace=True)
 
