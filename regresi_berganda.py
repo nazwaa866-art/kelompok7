@@ -171,7 +171,7 @@ st.markdown(f"""
 # ============================================================
 st.markdown(f"""
 <div class="navbar">
-    <span class="navbar-brand">Regresi Berganda — Properti India</span>
+    <span class="navbar-brand">Regresi Berganda — Properti</span>
     <ul class="navbar-links">
         <li><a href="#dataset">Dataset</a></li>
         <li><a href="#model">Model</a></li>
@@ -193,7 +193,7 @@ st.markdown(f"""
     </div>
     <div style="color:{MED_BROWN}; font-style:italic; font-size:0.95rem;
                 font-family:Georgia,serif;">
-        Multiple Linear Regression &nbsp;|&nbsp; scikit-learn &nbsp;|&nbsp; 1.027 Observasi &nbsp;|&nbsp; Tema Vintage
+        Multiple Linear Regression &nbsp;|&nbsp; scikit-learn &nbsp;|&nbsp; 1.027 Observasi &nbsp;
     </div>
 </div>
 <hr>
@@ -468,7 +468,7 @@ st.markdown(f"""
 <div style="text-align:center; padding:14px 0 20px 0;">
     <span style="color:{MILK_BROWN}; font-style:italic; font-size:0.82rem;
                  font-family:Georgia,serif;">
-        Regresi Berganda &nbsp;|&nbsp; Python scikit-learn &nbsp;|&nbsp; Tema Vintage
+        Regresi Berganda &nbsp;|&nbsp; Python scikit-learn &nbsp;
     </span>
 </div>
 """, unsafe_allow_html=True)
